@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <title>clinic</title>
+  </head>
+  <!-- body -->
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="link">
+            <svg class="icon" width="66" height="66" aria-label="">
+              <use href="./images/svg/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
+
+          <!-- navbar -->
+          <ul class="nav-list">
+            <li class="nav-list__item"><a href="#">Nasi lekarze</a></li>
+            <li class="nav-list__item"><a href="#">Kontakt</a></li>
+            <li class="nav-list__item">
+              <a href="#" class="link">
+                <span class="link__text">Programs</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="link">
+                <span class="link__text">O nas</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- toolbar -->
+          <div class="toolbar">
+            <a href="#" class="link">
+              <svg class="icon" width="40" height="40" aria-label="">
+                <use href="./images/svg/symbol-defs.svg#icon-login"></use>
+              </svg>
+            </a>
+
+            <button type="button" class="button">Skontaktuj się z nami</button>
+
+            <div class="lang">
+              PL
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <!-- toggle theme -->
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
+              <div class="svg-container">
+                <svg class="icon-sun" width="14" height="14" aria-label="">
+                  <use href="./images/svg/symbol-defs.svg#icon-sun"></use>
+                </svg>
+              </div>
+              <div class="svg-container">
+                <svg class="icon-moon" width="14" height="14" aria-label="">
+                  <use href="./images/svg/symbol-defs.svg#icon-moon"></use>
+                </svg>
+              </div>
+
+              <span class="ball"></span>
+            </label>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="container flex-container">
+          <div class="box">
+            <h1 class="box__title title">Aкції та Акційні пакети</h1>
+            <p class="box__text">
+              Ми завжди прагнемо підвищити рівень сервісу надаваних медичних
+              послуг, і вдячні вам за залишений позитивний відгук. Ми беремо до
+              уваги всі коментарі та побажання, які відносяться до нашої роботи.
+              Дякуємо за ваш вибір.
+            </p>
+          </div>
+
+          <div class="box__thumb">
+            <img
+              src="./images/jpg/consultation.jpg"
+              alt="The doctor giving consiltation to her pacient"
+            />
+          </div>
+          <div class="blur">
+            <svg class="icon-medicine" width="120" height="122" aria-label="">
+              <use href="./images/svg/symbol-defs.svg#icon-medicine"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- packages section  -->
+      <section class="section">
+        <div class="container">
+          <ul class="package-list">
+            <li class="package-list__item">
+              <h3 class="subtitle">УЗД всього організму для жінок</h3>
+              <div class="text-group">
+                <p class="text-group__text">Щитовидна залоза</p>
+                <p class="text-group__text">Молочні залози</p>
+                <p class="text-group__text">
+                  Органи черевної порожнини ( печінка, жовчний міхур,
+                  підшлункова залоза, селезінка)
+                </p>
+                <p class="text-group__text">Нирки та наднирокові залози</p>
+                <p class="text-group__text">Органи малого тазу</p>
+                <p class="text-group__text">
+                  Ціна —
+                  <s class="">2600 грн.</s>
+                </p>
+                <p class="text-group__text">Ціна по акції — 1280 грн</p>
+              </div>
+              <button type="button" class="button">
+                Переглянути детальніше
+              </button>
+            </li>
+            <li class="package-list__item">
+              <h3 class="subtitle">УЗД всього організму для жінок</h3>
+              <div class="text-group">
+                <p class="text-group__text">Щитовидна залоза</p>
+                <p class="text-group__text">Молочні залози</p>
+                <p class="text-group__text">
+                  Органи черевної порожнини ( печінка, жовчний міхур,
+                  підшлункова залоза, селезінка)
+                </p>
+                <p class="text-group__text">Нирки та наднирокові залози</p>
+                <p class="text-group__text">Органи малого тазу</p>
+                <p class="text-group__text">
+                  Ціна —
+                  <s class="">2600 грн.</s>
+                </p>
+                <p class="text-group__text">Ціна по акції — 1280 грн</p>
+              </div>
+              <button type="button" class="button">
+                Переглянути детальніше
+              </button>
+            </li>
+            <li class="package-list__item">
+              <h3 class="subtitle">УЗД всього організму для жінок</h3>
+              <div class="text-group">
+                <p class="text-group__text">Щитовидна залоза</p>
+                <p class="text-group__text">Молочні залози</p>
+                <p class="text-group__text">
+                  Органи черевної порожнини ( печінка, жовчний міхур,
+                  підшлункова залоза, селезінка)
+                </p>
+                <p class="text-group__text">Нирки та наднирокові залози</p>
+                <p class="text-group__text">Органи малого тазу</p>
+                <p class="text-group__text">
+                  Ціна —
+                  <s class="">2600 грн.</s>
+                </p>
+                <p class="text-group__text">Ціна по акції — 1280 грн</p>
+              </div>
+              <button type="button" class="button">
+                Переглянути детальніше
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- discount offers -->
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Акційні пропозиції</h2>
+
+          <div class="wrapper">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="swiper-slide__thumb">
+                    <img
+                      src="./images/jpg/xray.jpg"
+                      alt="The doctor is looking on xray"
+                    />
+                  </div>
+                  <h3 class="subtitle">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <a href="#" class="link">Переглянути детальніше</a>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__thumb">
+                    <img
+                      src="./images/jpg/xray.jpg"
+                      alt="The doctor is looking on xray"
+                    />
+                  </div>
+                  <h3 class="subtitle">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <a href="#" class="link">Переглянути детальніше</a>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__thumb">
+                    <img
+                      src="./images/jpg/xray.jpg"
+                      alt="The doctor is looking on xray"
+                    />
+                  </div>
+                  <h3 class="subtitle">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <a href="#" class="link">Переглянути детальніше</a>
+                </div>
+              </div>
+              <!-- Swiper navigation -->
+              <div class="swiper-button-prev">
+                <i class="fa-solid fa-caret-left"></i>
+              </div>
+              <div class="swiper-button-next">
+                <i class="fa-solid fa-caret-right"></i>
+              </div>
+            </div>
+
+            <form class="form">
+              <h3 class="form__subtitle subtitle">Czekamy na Ciebie!</h3>
+              <label class="form__label">
+                Imię i nazwisko
+                <input type="text" class="form__input" placeholder="Imię" />
+              </label>
+
+              <label class="form__label">
+                Phone
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="+48 XXX XXX XXX"
+                />
+              </label>
+              <label class="form__label">
+                Email
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="name@gmail.com"
+                />
+              </label>
+              <label class="form__label--size">
+                <input type="checkbox" class="form__input form__checkbox" />
+                Wypełnienie formularza zgłoszeniowego jest równoznaczne z
+                wyrażeniem zgody na przetwarzanie danych osobowych, otrzymywanie
+                newslettera, oraz kontakt telefoniczny
+              </label>
+              <button type="submit" class="form__button button">Wyślij</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8477f95489.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

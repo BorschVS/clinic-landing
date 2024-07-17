@@ -1,0 +1,23 @@
+{
+  "name": "clinic-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorschVS/clinic-landing.git"
+  },
+  "author": "Vadym Borsch",
+  "bugs": {
+    "url": "https://github.com/BorschVS/clinic-landing/issues"
+  },
+  "homepage": "https://github.com/BorschVS/clinic-landing#readme",
+  "dependencies": {
+    "@fontsource/inter": "^5.0.19",
+    "@fontsource/oranienbaum": "^5.0.13",
+    "normalize.css": "^8.0.1"
+  }
+}
